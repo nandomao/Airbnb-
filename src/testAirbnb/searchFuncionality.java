@@ -22,16 +22,6 @@ public class searchFuncionality extends TestAirbnb{
 			// TODO: handle exception
 		}
 	}	
-/*@Test (groups= {"searchFuincionality"})
-	public void fildEmpty()throws Exception{
-		driver.findElement(By.xpath("//*[@id=\"lp-search-button\"]")).click();
-	Thread.sleep(2000);
-		Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"Koan-magic-carpet-koan-search-bar__input\"]")).getText().contains("Em qualquer lugar"));
-	   Assert.assertTrue(driver.findElement(By.id("Koan-magic-carpet-koan-search-bar__input")).
-	    driver.findElement(By.xpath("//*[@id=\\\"lp-search-button\\\"]")).click();
-		Assert.assertTrue(driver.findElement(By.id("Koan-magic-carpet-koan-search-bar__input")).getText().contentEquals("Manaus "));
-}
-*/
 
 @Test (groups= {"searchFuincionality"})
 public void PlaceManaus()throws Exception{
